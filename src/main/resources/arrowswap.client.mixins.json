@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.arrowswap.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["OptionsMixin", "MinecraftMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

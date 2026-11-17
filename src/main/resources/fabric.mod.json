@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "arrowswap",
+  "version": "${version}",
+  "name": "Arrow Swap",
+  "description": "Two rebindable shortcuts for selecting the arrow stack your bow prioritizes.",
+  "environment": "client",
+  "entrypoints": { "modmenu": ["com.arrowswap.ModMenuIntegration"] },
+  "suggests": { "modmenu": ">=17.0.0" },
+  "mixins": ["arrowswap.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
